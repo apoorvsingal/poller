@@ -1,5 +1,5 @@
 # The Poller Bot
-A discord bot to create and manage polls.
+A discord bot to create and manage polls in your server.
 
 ## Commands
 - `createPoll question:[question] options:[option1;;option2;;option3...] startThread:[True|False]` - Creates a poll. A thread is auto-instantiated under the poll if startthread is True.
