@@ -14,7 +14,7 @@ A discord bot to create and manage polls in your server.
 > Important: The bot never stores or tracks any information about the polls or server members apart from the polls' message IDs and expiration timestamps. All of your private data never leaves your server.
 
 ## Running your own instance of the bot
-Poller is licensed under the MIT license. Folow these steps to run your own instance of the bot:
+Poller is licensed under the MIT license. You can Fflow these steps to run your own instance of the bot:
 
 ### Clone the repository
 ```bash
@@ -25,12 +25,12 @@ git clone https://github.com/apoorvsingal/poller.git
 
 1. Poller uses [Google Cloud Firestore](https://firebase.google.com/docs/firestore) as it's database. Follow their getting started guide to create a firestore database.
 2. Create a new service account and generate its private key from [here](https://console.cloud.google.com/iam-admin/serviceaccounts).
-3. Put the `FIREBASE_ADMIN_PROJECT_ID`, `FIREBASE_ADMIN_PRIVATE_KEY`, and `FIREBASE_ADMIN_CLIENT_EMAIL` environment variables inside the `.env` file from the generated JSON service account credentails file.
+3. Put the `FIREBASE_ADMIN_PROJECT_ID`, `FIREBASE_ADMIN_PRIVATE_KEY`, and `FIREBASE_ADMIN_CLIENT_EMAIL` environment variables inside the `.env` file from the generated JSON service account credentails.
 
 ### Setup discord bot account
 
-1. Follow [the official Discord docs](https://discord.com/developers/docs/intro) to create a new discord application and bot.
-2. Copy the bot token and put it as the `DISCORD_BOT_TOKEN` environment variable inside the .env file.
+1. Follow [the official Discord docs](https://discord.com/developers/docs/intro) to create a new discord application.
+2. Copy the bot token and save it in .env as `DISCORD_BOT_TOKEN`.
 
 ### Example .env
 ```env
@@ -53,10 +53,10 @@ yarn
 node index.js
 ```
 
-You should see an output like this after that command:
+You should see an output like this after the command:
 ```bash
 Successfully registered application commands.
 Logged in as Poll Bot#2360!
 ```
 
-The bot should be up and running after this. You can now start editing and files and playing around with the code. Check out [the discord.js docs](https://discordjs.guide/) for more on how to use the discord API.
+The bot should be up and running now. You can start editing the files and playing around with the code. Check out [the discord.js docs](https://discordjs.guide/) for more on how to use the discord API.
