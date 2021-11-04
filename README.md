@@ -13,8 +13,6 @@ A discord bot to create and manage polls in your server.
 
 > Important: The bot never stores or tracks any information about the polls or server members apart from the polls' message IDs and expiration timestamps. All of your private data never leaves your server.
 
-<br/>
-
 ## Running your own instance of the bot
 Poller is licensed under the MIT license. Folow these steps to run your own instance of the bot:
 
