@@ -8,8 +8,8 @@ A discord bot to create and manage polls in your server. Click [here](https://di
 - `setSubscriberRole role:[role]`- The specified role is notified every time a new poll is created.
 
 ## Example:
-<img src="https://media.discordapp.net/attachments/905707713634377778/905819031829889034/unknown.png" alt="command" style="width:1000px;"/>
-<img src="https://media.discordapp.net/attachments/905707713634377778/905813185968361482/unknown.png" alt="poll" style="width:500px;"/>
+<img src="https://media.discordapp.net/attachments/905707713634377778/906109043255414784/unknown.png" alt="command" style="width:1000px;"/>
+<img src="https://media.discordapp.net/attachments/905707713634377778/906109043280609300/unknown.png" alt="poll" style="width:500px;"/>
 
 > Important: The bot never stores or tracks any information about the polls or server members apart from the polls' message IDs and expiration timestamps. All of your private data never leaves your server.
 
